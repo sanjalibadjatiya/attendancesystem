@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnAddNewEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Employee" />
+
+    <Button
+        android:id="@+id/btnShowCurrentAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Current Attendance" />
+
+    <Button
+        android:id="@+id/btnShowAttendanceHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Attendance History" />
+
+    <Button
+        android:id="@+id/btnEditChannels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifications Channels Preferences" />
+</LinearLayout>
